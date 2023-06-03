@@ -174,6 +174,15 @@ export const Projects = () => {
                   <SiFirebase />
                 </div>
                 <div>
+                <a
+                    href="https://chatty-rust.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
                   <a
                     href="https://github.com/Subhransu02/chatty"
                     target="_blank"
