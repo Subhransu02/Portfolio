@@ -1,14 +1,9 @@
 import React from "react";
 import "./Introduction.css";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 import profilePic from "../../assets/SubhransuSekharPanda.jpg";
 import {
   SiCodechef,
-  SiMysql,
-  SiFirebase,
-  SiPostman,
-  SiSemanticuireact,
   SiLeetcode
 } from "react-icons/si";
 const thisIsMyCopy = "https://www.codechef.com/users/subhransu_02";

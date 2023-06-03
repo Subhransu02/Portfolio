@@ -2,31 +2,21 @@ import React from "react";
 import "./Projects.css";
 import { FaReact } from "react-icons/fa";
 import {
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
   SiFirebase,
   SiSemanticuireact,
   SiMysql,
 } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 import { DiCss3, DiPhp } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+// import { VscJson } from "react-icons/vsc";
+// import { IoLogoJavascript } from "react-icons/io";
 import tindogpic from "../../assets/tindog.png";
 import rqgpic from "../../assets/rqg.png";
 import citypic from "../../assets/city.png";
 import vspic from "../../assets/vs.png";
 import chatpic from "../../assets/chat.png";
+import crud from "../../assets/crud.png";
 export const Projects = () => {
   return (
     <>
@@ -104,6 +94,47 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/Subhransu02/random-quote-generator"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={crud} alt="Book-Management" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Book Management</h2>
+                <p>
+                It is a project which is an application of reactjs,
+firebase mainly a CRUD application to store the
+data of books, and keep a record of availabilty.
+                </p>
+                <div>
+                  <FaReact />
+                  <SiFirebase />
+                </div>
+                <div>
+                  <a
+                    href="https://react-crud-c9463.web.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Subhransu02/BOOK"
                     target="_blank"
                     rel="noreferrer"
                   >

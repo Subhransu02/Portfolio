@@ -2,13 +2,8 @@ import React from "react";
 import "./Techstacks.css";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
-  SiRedux,
   SiHtml5,
-  SiMaterialui,
   SiExpress,
-  SiRedis,
-  SiTailwindcss,
-  SiNetlify
 } from "react-icons/si";
 import { DiCss3, DiMongodb, DiPhp, DiGit } from "react-icons/di";
 import { SiJavascript, SiMysql, SiFirebase,SiPostman,SiSemanticuireact } from "react-icons/si";
