@@ -33,6 +33,43 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date={"Jun 2023 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Intern
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Team Computers Pvt. Ltd., New Delhi, India
+            </h4>
+            {/* <p data-aos="fade-right">
+              Working on many club projects. Built projects using the skills learned.
+            </p> */}
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date={"Jun 2022 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
@@ -67,6 +104,8 @@ export const Timeline = () => {
               Working on many club projects. Built projects using the skills learned.
             </p>
           </VerticalTimelineElement>
+        
+
         
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
