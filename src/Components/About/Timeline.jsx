@@ -141,7 +141,7 @@ export const Timeline = () => {
             </h4>
             <p data-aos="fade-right">
               Studying Computer Science and Engineering. 
-              9.31 CGPA (Till 3rd sem)
+              9.41 CGPA (Till 4th sem)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
