@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import {
   SiHtml5,
   SiExpress,
@@ -9,6 +9,7 @@ import { DiCss3, DiMongodb, DiPhp, DiGit } from "react-icons/di";
 import { SiJavascript, SiMysql, SiFirebase,SiPostman,SiSemanticuireact } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
+import {BiLogoAws} from "react-icons/bi";
 
 export const Techstacks = () => {
   return (
@@ -81,6 +82,10 @@ export const Techstacks = () => {
           <div>
             <SiSemanticuireact />
             <h5>Sui</h5>
+          </div>
+          <div>
+            <FaAws />
+            <h5>AWS</h5>
           </div>
         </div>
       </div>
