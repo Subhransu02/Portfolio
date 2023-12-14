@@ -1,14 +1,15 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact } from "react-icons/fa";
+import { FaNodeJs, FaReact } from "react-icons/fa";
 import {
   SiHtml5,
   SiFirebase,
   SiSemanticuireact,
   SiMysql,
+  SiExpress,
 } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
-import { DiCss3, DiPhp } from "react-icons/di";
+import { DiCss3, DiMongodb, DiPhp } from "react-icons/di";
 // import { VscJson } from "react-icons/vsc";
 // import { IoLogoJavascript } from "react-icons/io";
 import tindogpic from "../../assets/tindog.png";
@@ -17,6 +18,7 @@ import citypic from "../../assets/city.png";
 import vspic from "../../assets/vs.png";
 import chatpic from "../../assets/chat.png";
 import crud from "../../assets/crud.png";
+import sspic from "../../assets/ss.png";
 export const Projects = () => {
   return (
     <>
@@ -258,6 +260,55 @@ data of books, and keep a record of availabilty.
               </div>
             </div>
           </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={sspic} alt="mern-estate" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Real Estate</h2>
+                <p>
+                  This is a project which is an application base on MERN ans Tailwind CSS.
+                  This is a real life real estate app to find rent or sell houses.
+                </p>
+                <div>
+                <FaReact />
+                <SiFirebase />
+                <DiMongodb />
+                <SiExpress />
+                <FaNodeJs />
+                  
+                </div>
+                <div>
+                <a
+                    href="https://mern-estate-i4ri.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Subhransu02/real_estate"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
         </div>
       </div>
     </>
