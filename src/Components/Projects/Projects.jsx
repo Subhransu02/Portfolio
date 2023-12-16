@@ -19,6 +19,7 @@ import vspic from "../../assets/vs.png";
 import chatpic from "../../assets/chat.png";
 import crud from "../../assets/crud.png";
 import sspic from "../../assets/ss.png";
+import ggpic from "../../assets/gg.png";
 export const Projects = () => {
   return (
     <>
@@ -117,9 +118,9 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Book Management</h2>
                 <p>
-                It is a project which is an application of reactjs,
-firebase mainly a CRUD application to store the
-data of books, and keep a record of availabilty.
+                  It is a project which is an application of reactjs, firebase
+                  mainly a CRUD application to store the data of books, and keep
+                  a record of availabilty.
                 </p>
                 <div>
                   <FaReact />
@@ -207,7 +208,7 @@ data of books, and keep a record of availabilty.
                   <SiFirebase />
                 </div>
                 <div>
-                <a
+                  <a
                     href="https://chatty-rust.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
@@ -271,19 +272,19 @@ data of books, and keep a record of availabilty.
               <div className="project_information">
                 <h2>Real Estate</h2>
                 <p>
-                  This is a project which is an application base on MERN ans Tailwind CSS.
-                  This is a real life real estate app to find rent or sell houses.
+                  This is a project which is an application based on MERN and
+                  Tailwind CSS. This is a real life real estate app to find rent
+                  or sell houses.
                 </p>
                 <div>
-                <FaReact />
-                <SiFirebase />
-                <DiMongodb />
-                <SiExpress />
-                <FaNodeJs />
-                  
+                  <FaReact />
+                  <SiFirebase />
+                  <DiMongodb />
+                  <SiExpress />
+                  <FaNodeJs />
                 </div>
                 <div>
-                <a
+                  <a
                     href="https://mern-estate-i4ri.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -306,9 +307,45 @@ data of books, and keep a record of availabilty.
             </div>
           </div>
 
-
-
-
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={ggpic} alt="google-clone" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Google Clone</h2>
+                <p>
+                  This is a project which is an application based on NextJs and
+                  Tailwind CSS. This is a Google clone that performs search functionality.
+                </p>
+                <div>
+                  
+                </div>
+                <div>
+                  <a
+                    href="https://google-clone-subhransu02.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Subhransu02/google-clone"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
